@@ -1,0 +1,40 @@
+name: basic_flutter
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.3
+  loading_animation_widget: ^1.2.1
+  provider: ^6.1.2
+  twilio_flutter: ^0.9.0
+  email_validator: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    
+    - assets/images/loginbmi.png
+    - assets/images/hospital.jpg
+    - assets/images/bgimagelogin.jpg
+    - assets/images/medicalposter.jpg
+    - assets/images/splashproject.jpg
+    - assets/images/splashproject2.jpg
+    - assets/images/forgotpassword.png
+    - assets/images/bmiindicator.png
+    - assets/images/bmi_chart.png
